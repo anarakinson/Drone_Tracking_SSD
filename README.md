@@ -1,19 +1,19 @@
 # Object detection and tracking with ssd-mobilenet-320
----
+***
 
 ### Подготовка:
----
+***
 
 Перед работой нужно скачать архив с сохраненными моделями **workspace.zip** и распаковать в директорию Tensorflow
 
-по ссылке:
+Скачать можно по ссылке:
 
 'https://drive.google.com/drive/folders/15SZZ0nlqZLGlFPS573M1izXg0--Y37pf?usp=sharing'
 
----
+***
 
 ### Detection and tracking
----
+***
 
 Для установки среды:
 ```shell
@@ -36,7 +36,8 @@ python verification.py
 ***
 
 Детекция и трекинг производятся с веб-камеры
----
+***
+
 Детекция:
 ```shell
 python detect.py
