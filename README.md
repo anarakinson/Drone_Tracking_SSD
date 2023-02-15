@@ -1,3 +1,13 @@
+# Подготовка:
+---
+
+Перед работой нужно скачать архив с сохраненными моделями workspace.zip по ссылке:
+
+https://drive.google.com/drive/folders/15SZZ0nlqZLGlFPS573M1izXg0--Y37pf?usp=sharing
+
+и распаковать в директорию Tensorflow
+---
+
 # Object detection and tracking with ssd-mobilenet-320
 ---
 
