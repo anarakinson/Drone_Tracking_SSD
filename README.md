@@ -1,6 +1,11 @@
 # Object detection and tracking with ssd-mobilenet-320
 ***
 
+# Создание модели:
+***
+Необходимо запустить ноутбук **Training_Model.ipynb**, добавить снимки для обучения в нужные директории (согласно комментариям в ноутбуке) и сохранить модель для дальнейшего использования. В директории workspace/models/ уже есть сохраненные модели, обученные на [датасете](https://www.kaggle.com/datasets/dasmehdixtr/drone-dataset-uav)
+
+
 ### Подготовка:
 ***
 
