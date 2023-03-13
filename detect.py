@@ -28,6 +28,10 @@ class DetectionModel():
     @tf.function
     def detect_fn(self, image):
         image, shapes = self.detection_model.preprocess(image)
+        # print(shapes)
+        # print(image)
+        # print(tf.get_static_value(shapes))
+        # print(tf.get_static_value(image))
         prediction_dict = self.detection_model.predict(image, shapes)
         detections = self.detection_model.postprocess(prediction_dict, shapes)
         return detections
@@ -90,7 +94,10 @@ def draw_result(
 def main():
     category_index = label_map_util.create_category_index_from_labelmap(files['LABELMAP'])
 
+    start_time = time.time()
     detection_model = DetectionModel()
+    end_time = time.time()
+    print(f"Model loaded. Time passed: {round(end_time - start_time, 2)} sec")
 
     # open camera
     cap = cv2.VideoCapture(0)
