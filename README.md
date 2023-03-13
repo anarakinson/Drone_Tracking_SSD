@@ -11,7 +11,7 @@
 
 Перед работой нужно скачать архив с сохраненными моделями **workspace.zip** и распаковать в директорию Tensorflow
 
-Скачать можно по [ссылке]('https://drive.google.com/drive/folders/15SZZ0nlqZLGlFPS573M1izXg0--Y37pf?usp=sharing')
+Скачать можно по [ссылке](https://drive.google.com/drive/folders/15SZZ0nlqZLGlFPS573M1izXg0--Y37pf?usp=sharing)
 
 ***
 
